@@ -1,0 +1,52 @@
+name: app_prueba
+description: A new Flutter project.
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+ 
+  google_maps_flutter: ^2.0.9
+  cupertino_icons: ^1.0.0
+  firebase_core: ^0.7.0
+  cloud_firestore: ^0.16.0
+  get: ^3.4.6
+  firebase_auth: ^0.20.0+1
+  firebase_database: ^6.0.0
+  intl: 0.16.1
+  curved_navigation_bar: ^0.3.7
+  dropdownfield: ^1.0.3
+  barcode_scan: ^2.0.1
+  flutter_launcher_icons: ^0.8.1
+  image_picker: ^0.6.0
+  camera: ^0.5.0
+
+#flutter pub run flutter_launcher_icons:main C:\src\aplication\assets\icons\icono_app.png
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icono_app.png"
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+
+flutter:
+
+ 
+  uses-material-design: true
+  assets: 
+    - assets/images/
+
